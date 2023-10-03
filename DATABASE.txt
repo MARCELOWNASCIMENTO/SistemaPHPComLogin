@@ -1,0 +1,19 @@
+***inicio *** colar no mysql***
+
+create database sistema
+
+use sistema
+use sistema
+create table users (
+	id int primary key auto_increment,
+	Username varchar(50),
+	Password varchar(300),
+	Created_at datetime
+);
+
+insert into users (id, Username, Password, Created_at) values (1, 'marcelo','abc@123##',curdate())
+
+
+select * from users
+
+***FIM *** colar no mysql***
